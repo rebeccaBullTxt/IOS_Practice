@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545198F61F0BF3990007E65D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545198F51F0BF3990007E65D /* AppDelegate.swift */; };
+		545198F81F0BF3990007E65D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545198F71F0BF3990007E65D /* ViewController.swift */; };
+		545198FB1F0BF3990007E65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545198F91F0BF3990007E65D /* Main.storyboard */; };
+		545198FD1F0BF3990007E65D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545198FC1F0BF3990007E65D /* Assets.xcassets */; };
+		545199001F0BF3990007E65D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545198FE1F0BF3990007E65D /* LaunchScreen.storyboard */; };
+		5451990B1F0BF3990007E65D /* __________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5451990A1F0BF3990007E65D /* __________Tests.swift */; };
+		545199161F0BF3990007E65D /* __________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545199151F0BF3990007E65D /* __________UITests.swift */; };
+		545199241F0BF3CA0007E65D /* LYButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545199231F0BF3CA0007E65D /* LYButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		545199071F0BF3990007E65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 545198EA1F0BF3990007E65D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 545198F11F0BF3990007E65D;
+			remoteInfo = "5.带动画倒计时按钮";
+		};
+		545199121F0BF3990007E65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 545198EA1F0BF3990007E65D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 545198F11F0BF3990007E65D;
+			remoteInfo = "5.带动画倒计时按钮";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		545198F21F0BF3990007E65D /* 5.带动画倒计时按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5.带动画倒计时按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		545198F51F0BF3990007E65D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		545198F71F0BF3990007E65D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		545198FA1F0BF3990007E65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		545198FC1F0BF3990007E65D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		545198FF1F0BF3990007E65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		545199011F0BF3990007E65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545199061F0BF3990007E65D /* 5.带动画倒计时按钮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5.带动画倒计时按钮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5451990A1F0BF3990007E65D /* __________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__________Tests.swift"; sourceTree = "<group>"; };
+		5451990C1F0BF3990007E65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545199111F0BF3990007E65D /* 5.带动画倒计时按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5.带动画倒计时按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		545199151F0BF3990007E65D /* __________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__________UITests.swift"; sourceTree = "<group>"; };
+		545199171F0BF3990007E65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545199231F0BF3CA0007E65D /* LYButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		545198EF1F0BF3990007E65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545199031F0BF3990007E65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5451990E1F0BF3990007E65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		545198E91F0BF3990007E65D = {
+			isa = PBXGroup;
+			children = (
+				545198F41F0BF3990007E65D /* 5.带动画倒计时按钮 */,
+				545199091F0BF3990007E65D /* 5.带动画倒计时按钮Tests */,
+				545199141F0BF3990007E65D /* 5.带动画倒计时按钮UITests */,
+				545198F31F0BF3990007E65D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		545198F31F0BF3990007E65D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				545198F21F0BF3990007E65D /* 5.带动画倒计时按钮.app */,
+				545199061F0BF3990007E65D /* 5.带动画倒计时按钮Tests.xctest */,
+				545199111F0BF3990007E65D /* 5.带动画倒计时按钮UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		545198F41F0BF3990007E65D /* 5.带动画倒计时按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				545198F51F0BF3990007E65D /* AppDelegate.swift */,
+				545198F71F0BF3990007E65D /* ViewController.swift */,
+				545199231F0BF3CA0007E65D /* LYButton.swift */,
+				545198F91F0BF3990007E65D /* Main.storyboard */,
+				545198FC1F0BF3990007E65D /* Assets.xcassets */,
+				545198FE1F0BF3990007E65D /* LaunchScreen.storyboard */,
+				545199011F0BF3990007E65D /* Info.plist */,
+			);
+			path = "5.带动画倒计时按钮";
+			sourceTree = "<group>";
+		};
+		545199091F0BF3990007E65D /* 5.带动画倒计时按钮Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5451990A1F0BF3990007E65D /* __________Tests.swift */,
+				5451990C1F0BF3990007E65D /* Info.plist */,
+			);
+			path = "5.带动画倒计时按钮Tests";
+			sourceTree = "<group>";
+		};
+		545199141F0BF3990007E65D /* 5.带动画倒计时按钮UITests */ = {
+			isa = PBXGroup;
+			children = (
+				545199151F0BF3990007E65D /* __________UITests.swift */,
+				545199171F0BF3990007E65D /* Info.plist */,
+			);
+			path = "5.带动画倒计时按钮UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		545198F11F0BF3990007E65D /* 5.带动画倒计时按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5451991A1F0BF3990007E65D /* Build configuration list for PBXNativeTarget "5.带动画倒计时按钮" */;
+			buildPhases = (
+				545198EE1F0BF3990007E65D /* Sources */,
+				545198EF1F0BF3990007E65D /* Frameworks */,
+				545198F01F0BF3990007E65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5.带动画倒计时按钮";
+			productName = "5.带动画倒计时按钮";
+			productReference = 545198F21F0BF3990007E65D /* 5.带动画倒计时按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		545199051F0BF3990007E65D /* 5.带动画倒计时按钮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5451991D1F0BF3990007E65D /* Build configuration list for PBXNativeTarget "5.带动画倒计时按钮Tests" */;
+			buildPhases = (
+				545199021F0BF3990007E65D /* Sources */,
+				545199031F0BF3990007E65D /* Frameworks */,
+				545199041F0BF3990007E65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				545199081F0BF3990007E65D /* PBXTargetDependency */,
+			);
+			name = "5.带动画倒计时按钮Tests";
+			productName = "5.带动画倒计时按钮Tests";
+			productReference = 545199061F0BF3990007E65D /* 5.带动画倒计时按钮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		545199101F0BF3990007E65D /* 5.带动画倒计时按钮UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545199201F0BF3990007E65D /* Build configuration list for PBXNativeTarget "5.带动画倒计时按钮UITests" */;
+			buildPhases = (
+				5451990D1F0BF3990007E65D /* Sources */,
+				5451990E1F0BF3990007E65D /* Frameworks */,
+				5451990F1F0BF3990007E65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				545199131F0BF3990007E65D /* PBXTargetDependency */,
+			);
+			name = "5.带动画倒计时按钮UITests";
+			productName = "5.带动画倒计时按钮UITests";
+			productReference = 545199111F0BF3990007E65D /* 5.带动画倒计时按钮UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		545198EA1F0BF3990007E65D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "刘渊";
+				TargetAttributes = {
+					545198F11F0BF3990007E65D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+					545199051F0BF3990007E65D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 545198F11F0BF3990007E65D;
+					};
+					545199101F0BF3990007E65D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 545198F11F0BF3990007E65D;
+					};
+				};
+			};
+			buildConfigurationList = 545198ED1F0BF3990007E65D /* Build configuration list for PBXProject "4_带动画倒计时按钮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 545198E91F0BF3990007E65D;
+			productRefGroup = 545198F31F0BF3990007E65D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				545198F11F0BF3990007E65D /* 5.带动画倒计时按钮 */,
+				545199051F0BF3990007E65D /* 5.带动画倒计时按钮Tests */,
+				545199101F0BF3990007E65D /* 5.带动画倒计时按钮UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		545198F01F0BF3990007E65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545199001F0BF3990007E65D /* LaunchScreen.storyboard in Resources */,
+				545198FD1F0BF3990007E65D /* Assets.xcassets in Resources */,
+				545198FB1F0BF3990007E65D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545199041F0BF3990007E65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5451990F1F0BF3990007E65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		545198EE1F0BF3990007E65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545198F81F0BF3990007E65D /* ViewController.swift in Sources */,
+				545198F61F0BF3990007E65D /* AppDelegate.swift in Sources */,
+				545199241F0BF3CA0007E65D /* LYButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545199021F0BF3990007E65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5451990B1F0BF3990007E65D /* __________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5451990D1F0BF3990007E65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545199161F0BF3990007E65D /* __________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		545199081F0BF3990007E65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 545198F11F0BF3990007E65D /* 5.带动画倒计时按钮 */;
+			targetProxy = 545199071F0BF3990007E65D /* PBXContainerItemProxy */;
+		};
+		545199131F0BF3990007E65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 545198F11F0BF3990007E65D /* 5.带动画倒计时按钮 */;
+			targetProxy = 545199121F0BF3990007E65D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		545198F91F0BF3990007E65D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545198FA1F0BF3990007E65D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		545198FE1F0BF3990007E65D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545198FF1F0BF3990007E65D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		545199181F0BF3990007E65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		545199191F0BF3990007E65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5451991B1F0BF3990007E65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "5.带动画倒计时按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5451991C1F0BF3990007E65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "5.带动画倒计时按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5451991E1F0BF3990007E65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "5.带动画倒计时按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5.带动画倒计时按钮.app/5.带动画倒计时按钮";
+			};
+			name = Debug;
+		};
+		5451991F1F0BF3990007E65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "5.带动画倒计时按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5.带动画倒计时按钮.app/5.带动画倒计时按钮";
+			};
+			name = Release;
+		};
+		545199211F0BF3990007E65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "5.带动画倒计时按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "5.带动画倒计时按钮";
+			};
+			name = Debug;
+		};
+		545199221F0BF3990007E65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "5.带动画倒计时按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "5.带动画倒计时按钮";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		545198ED1F0BF3990007E65D /* Build configuration list for PBXProject "4_带动画倒计时按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545199181F0BF3990007E65D /* Debug */,
+				545199191F0BF3990007E65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5451991A1F0BF3990007E65D /* Build configuration list for PBXNativeTarget "5.带动画倒计时按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5451991B1F0BF3990007E65D /* Debug */,
+				5451991C1F0BF3990007E65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5451991D1F0BF3990007E65D /* Build configuration list for PBXNativeTarget "5.带动画倒计时按钮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5451991E1F0BF3990007E65D /* Debug */,
+				5451991F1F0BF3990007E65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545199201F0BF3990007E65D /* Build configuration list for PBXNativeTarget "5.带动画倒计时按钮UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545199211F0BF3990007E65D /* Debug */,
+				545199221F0BF3990007E65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 545198EA1F0BF3990007E65D /* Project object */;
+}

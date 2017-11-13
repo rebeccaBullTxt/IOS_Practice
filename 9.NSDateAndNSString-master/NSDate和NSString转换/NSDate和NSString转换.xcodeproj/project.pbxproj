@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54DE475E1F8B098C00D2128F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DE475D1F8B098C00D2128F /* AppDelegate.m */; };
+		54DE47611F8B098C00D2128F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DE47601F8B098C00D2128F /* ViewController.m */; };
+		54DE47641F8B098C00D2128F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DE47621F8B098C00D2128F /* Main.storyboard */; };
+		54DE47661F8B098C00D2128F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54DE47651F8B098C00D2128F /* Assets.xcassets */; };
+		54DE47691F8B098C00D2128F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DE47671F8B098C00D2128F /* LaunchScreen.storyboard */; };
+		54DE476C1F8B098C00D2128F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DE476B1F8B098C00D2128F /* main.m */; };
+		54DE47761F8B098C00D2128F /* NSDate_NSString__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DE47751F8B098C00D2128F /* NSDate_NSString__Tests.m */; };
+		54DE47811F8B098C00D2128F /* NSDate_NSString__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DE47801F8B098C00D2128F /* NSDate_NSString__UITests.m */; };
+		54DE47901F8B0C8000D2128F /* NSDateStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DE478F1F8B0C8000D2128F /* NSDateStringUtil.m */; };
+		54DE47961F8B15CE00D2128F /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DE47951F8B15CE00D2128F /* NSDate+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54DE47721F8B098C00D2128F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54DE47511F8B098C00D2128F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54DE47581F8B098C00D2128F;
+			remoteInfo = "NSDate和NSString转换";
+		};
+		54DE477D1F8B098C00D2128F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54DE47511F8B098C00D2128F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54DE47581F8B098C00D2128F;
+			remoteInfo = "NSDate和NSString转换";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54DE47591F8B098C00D2128F /* NSDate和NSString转换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSDate和NSString转换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DE475C1F8B098C00D2128F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54DE475D1F8B098C00D2128F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54DE475F1F8B098C00D2128F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54DE47601F8B098C00D2128F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54DE47631F8B098C00D2128F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54DE47651F8B098C00D2128F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54DE47681F8B098C00D2128F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54DE476A1F8B098C00D2128F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DE476B1F8B098C00D2128F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54DE47711F8B098C00D2128F /* NSDate和NSString转换Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSDate和NSString转换Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DE47751F8B098C00D2128F /* NSDate_NSString__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDate_NSString__Tests.m; sourceTree = "<group>"; };
+		54DE47771F8B098C00D2128F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DE477C1F8B098C00D2128F /* NSDate和NSString转换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSDate和NSString转换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DE47801F8B098C00D2128F /* NSDate_NSString__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDate_NSString__UITests.m; sourceTree = "<group>"; };
+		54DE47821F8B098C00D2128F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DE478E1F8B0C8000D2128F /* NSDateStringUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDateStringUtil.h; sourceTree = "<group>"; };
+		54DE478F1F8B0C8000D2128F /* NSDateStringUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateStringUtil.m; sourceTree = "<group>"; };
+		54DE47941F8B15CE00D2128F /* NSDate+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		54DE47951F8B15CE00D2128F /* NSDate+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54DE47561F8B098C00D2128F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DE476E1F8B098C00D2128F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DE47791F8B098C00D2128F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54DE47501F8B098C00D2128F = {
+			isa = PBXGroup;
+			children = (
+				54DE475B1F8B098C00D2128F /* NSDate和NSString转换 */,
+				54DE47741F8B098C00D2128F /* NSDate和NSString转换Tests */,
+				54DE477F1F8B098C00D2128F /* NSDate和NSString转换UITests */,
+				54DE475A1F8B098C00D2128F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54DE475A1F8B098C00D2128F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54DE47591F8B098C00D2128F /* NSDate和NSString转换.app */,
+				54DE47711F8B098C00D2128F /* NSDate和NSString转换Tests.xctest */,
+				54DE477C1F8B098C00D2128F /* NSDate和NSString转换UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54DE475B1F8B098C00D2128F /* NSDate和NSString转换 */ = {
+			isa = PBXGroup;
+			children = (
+				54DE475C1F8B098C00D2128F /* AppDelegate.h */,
+				54DE475D1F8B098C00D2128F /* AppDelegate.m */,
+				54DE475F1F8B098C00D2128F /* ViewController.h */,
+				54DE47601F8B098C00D2128F /* ViewController.m */,
+				54DE47621F8B098C00D2128F /* Main.storyboard */,
+				54DE47651F8B098C00D2128F /* Assets.xcassets */,
+				54DE47671F8B098C00D2128F /* LaunchScreen.storyboard */,
+				54DE476A1F8B098C00D2128F /* Info.plist */,
+				54DE476B1F8B098C00D2128F /* main.m */,
+				54DE478E1F8B0C8000D2128F /* NSDateStringUtil.h */,
+				54DE478F1F8B0C8000D2128F /* NSDateStringUtil.m */,
+				54DE47941F8B15CE00D2128F /* NSDate+Extension.h */,
+				54DE47951F8B15CE00D2128F /* NSDate+Extension.m */,
+			);
+			path = "NSDate和NSString转换";
+			sourceTree = "<group>";
+		};
+		54DE47741F8B098C00D2128F /* NSDate和NSString转换Tests */ = {
+			isa = PBXGroup;
+			children = (
+				54DE47751F8B098C00D2128F /* NSDate_NSString__Tests.m */,
+				54DE47771F8B098C00D2128F /* Info.plist */,
+			);
+			path = "NSDate和NSString转换Tests";
+			sourceTree = "<group>";
+		};
+		54DE477F1F8B098C00D2128F /* NSDate和NSString转换UITests */ = {
+			isa = PBXGroup;
+			children = (
+				54DE47801F8B098C00D2128F /* NSDate_NSString__UITests.m */,
+				54DE47821F8B098C00D2128F /* Info.plist */,
+			);
+			path = "NSDate和NSString转换UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54DE47581F8B098C00D2128F /* NSDate和NSString转换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54DE47851F8B098C00D2128F /* Build configuration list for PBXNativeTarget "NSDate和NSString转换" */;
+			buildPhases = (
+				54DE47551F8B098C00D2128F /* Sources */,
+				54DE47561F8B098C00D2128F /* Frameworks */,
+				54DE47571F8B098C00D2128F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSDate和NSString转换";
+			productName = "NSDate和NSString转换";
+			productReference = 54DE47591F8B098C00D2128F /* NSDate和NSString转换.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54DE47701F8B098C00D2128F /* NSDate和NSString转换Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54DE47881F8B098C00D2128F /* Build configuration list for PBXNativeTarget "NSDate和NSString转换Tests" */;
+			buildPhases = (
+				54DE476D1F8B098C00D2128F /* Sources */,
+				54DE476E1F8B098C00D2128F /* Frameworks */,
+				54DE476F1F8B098C00D2128F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54DE47731F8B098C00D2128F /* PBXTargetDependency */,
+			);
+			name = "NSDate和NSString转换Tests";
+			productName = "NSDate和NSString转换Tests";
+			productReference = 54DE47711F8B098C00D2128F /* NSDate和NSString转换Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54DE477B1F8B098C00D2128F /* NSDate和NSString转换UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54DE478B1F8B098C00D2128F /* Build configuration list for PBXNativeTarget "NSDate和NSString转换UITests" */;
+			buildPhases = (
+				54DE47781F8B098C00D2128F /* Sources */,
+				54DE47791F8B098C00D2128F /* Frameworks */,
+				54DE477A1F8B098C00D2128F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54DE477E1F8B098C00D2128F /* PBXTargetDependency */,
+			);
+			name = "NSDate和NSString转换UITests";
+			productName = "NSDate和NSString转换UITests";
+			productReference = 54DE477C1F8B098C00D2128F /* NSDate和NSString转换UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54DE47511F8B098C00D2128F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "刘渊";
+				TargetAttributes = {
+					54DE47581F8B098C00D2128F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					54DE47701F8B098C00D2128F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54DE47581F8B098C00D2128F;
+					};
+					54DE477B1F8B098C00D2128F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54DE47581F8B098C00D2128F;
+					};
+				};
+			};
+			buildConfigurationList = 54DE47541F8B098C00D2128F /* Build configuration list for PBXProject "NSDate和NSString转换" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54DE47501F8B098C00D2128F;
+			productRefGroup = 54DE475A1F8B098C00D2128F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54DE47581F8B098C00D2128F /* NSDate和NSString转换 */,
+				54DE47701F8B098C00D2128F /* NSDate和NSString转换Tests */,
+				54DE477B1F8B098C00D2128F /* NSDate和NSString转换UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54DE47571F8B098C00D2128F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DE47691F8B098C00D2128F /* LaunchScreen.storyboard in Resources */,
+				54DE47661F8B098C00D2128F /* Assets.xcassets in Resources */,
+				54DE47641F8B098C00D2128F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DE476F1F8B098C00D2128F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DE477A1F8B098C00D2128F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54DE47551F8B098C00D2128F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DE47611F8B098C00D2128F /* ViewController.m in Sources */,
+				54DE47961F8B15CE00D2128F /* NSDate+Extension.m in Sources */,
+				54DE47901F8B0C8000D2128F /* NSDateStringUtil.m in Sources */,
+				54DE476C1F8B098C00D2128F /* main.m in Sources */,
+				54DE475E1F8B098C00D2128F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DE476D1F8B098C00D2128F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DE47761F8B098C00D2128F /* NSDate_NSString__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DE47781F8B098C00D2128F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DE47811F8B098C00D2128F /* NSDate_NSString__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54DE47731F8B098C00D2128F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54DE47581F8B098C00D2128F /* NSDate和NSString转换 */;
+			targetProxy = 54DE47721F8B098C00D2128F /* PBXContainerItemProxy */;
+		};
+		54DE477E1F8B098C00D2128F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54DE47581F8B098C00D2128F /* NSDate和NSString转换 */;
+			targetProxy = 54DE477D1F8B098C00D2128F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54DE47621F8B098C00D2128F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54DE47631F8B098C00D2128F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54DE47671F8B098C00D2128F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54DE47681F8B098C00D2128F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54DE47831F8B098C00D2128F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54DE47841F8B098C00D2128F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54DE47861F8B098C00D2128F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSDate和NSString转换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NSDate-NSString--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54DE47871F8B098C00D2128F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSDate和NSString转换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NSDate-NSString--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54DE47891F8B098C00D2128F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSDate和NSString转换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NSDate-NSString--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSDate和NSString转换.app/NSDate和NSString转换";
+			};
+			name = Debug;
+		};
+		54DE478A1F8B098C00D2128F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSDate和NSString转换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NSDate-NSString--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSDate和NSString转换.app/NSDate和NSString转换";
+			};
+			name = Release;
+		};
+		54DE478C1F8B098C00D2128F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSDate和NSString转换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NSDate-NSString--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NSDate和NSString转换";
+			};
+			name = Debug;
+		};
+		54DE478D1F8B098C00D2128F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSDate和NSString转换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NSDate-NSString--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NSDate和NSString转换";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54DE47541F8B098C00D2128F /* Build configuration list for PBXProject "NSDate和NSString转换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DE47831F8B098C00D2128F /* Debug */,
+				54DE47841F8B098C00D2128F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54DE47851F8B098C00D2128F /* Build configuration list for PBXNativeTarget "NSDate和NSString转换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DE47861F8B098C00D2128F /* Debug */,
+				54DE47871F8B098C00D2128F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54DE47881F8B098C00D2128F /* Build configuration list for PBXNativeTarget "NSDate和NSString转换Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DE47891F8B098C00D2128F /* Debug */,
+				54DE478A1F8B098C00D2128F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54DE478B1F8B098C00D2128F /* Build configuration list for PBXNativeTarget "NSDate和NSString转换UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DE478C1F8B098C00D2128F /* Debug */,
+				54DE478D1F8B098C00D2128F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54DE47511F8B098C00D2128F /* Project object */;
+}
