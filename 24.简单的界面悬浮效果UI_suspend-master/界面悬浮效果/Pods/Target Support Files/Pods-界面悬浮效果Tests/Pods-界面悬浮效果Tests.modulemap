@@ -1,0 +1,6 @@
+framework module Pods_______Tests {
+  umbrella header "Pods-界面悬浮效果Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

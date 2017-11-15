@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540655A61FA9B6280058F45F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655A51FA9B6280058F45F /* AppDelegate.m */; };
+		540655A91FA9B6280058F45F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655A81FA9B6280058F45F /* ViewController.m */; };
+		540655AE1FA9B6280058F45F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540655AD1FA9B6280058F45F /* Assets.xcassets */; };
+		540655B41FA9B6280058F45F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655B31FA9B6280058F45F /* main.m */; };
+		540655BE1FA9B6280058F45F /* bezierpathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655BD1FA9B6280058F45F /* bezierpathTests.m */; };
+		540655C91FA9B6290058F45F /* bezierpathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655C81FA9B6290058F45F /* bezierpathUITests.m */; };
+		540655D81FA9B8230058F45F /* RectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655D71FA9B8230058F45F /* RectView.m */; };
+		540655DB1FA9BAA20058F45F /* DrawPolygonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655DA1FA9BAA20058F45F /* DrawPolygonViewController.m */; };
+		540655DE1FA9BBD00058F45F /* DrawPolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655DD1FA9BBD00058F45F /* DrawPolygonView.m */; };
+		540655E11FA9BE420058F45F /* RectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655E01FA9BE420058F45F /* RectViewController.m */; };
+		540655E41FA9BF700058F45F /* OvalInRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655E31FA9BF700058F45F /* OvalInRectViewController.m */; };
+		540655E71FA9BF8C0058F45F /* OvalInRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655E61FA9BF8C0058F45F /* OvalInRectView.m */; };
+		540655EA1FA9C19F0058F45F /* ArcCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655E91FA9C19F0058F45F /* ArcCenterViewController.m */; };
+		540655ED1FA9C33A0058F45F /* ArcCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655EC1FA9C33A0058F45F /* ArcCenterView.m */; };
+		540655F01FA9C56B0058F45F /* QuadCurveToPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655EF1FA9C56B0058F45F /* QuadCurveToPointViewController.m */; };
+		540655F31FA9C5930058F45F /* QuadCurveToPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655F21FA9C5930058F45F /* QuadCurveToPointView.m */; };
+		540655F61FA9C7DC0058F45F /* CurveToPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655F51FA9C7DC0058F45F /* CurveToPointViewController.m */; };
+		540655F91FA9C7FC0058F45F /* CurveToPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655F81FA9C7FC0058F45F /* CurveToPointView.m */; };
+		540655FC1FA9CDDC0058F45F /* RoundedRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655FB1FA9CDDC0058F45F /* RoundedRectViewController.m */; };
+		540655FF1FA9CDF90058F45F /* RoundedRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540655FE1FA9CDF90058F45F /* RoundedRectView.m */; };
+		540656021FA9CF1C0058F45F /* RoundingCornersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540656011FA9CF1C0058F45F /* RoundingCornersViewController.m */; };
+		540656051FA9CF2F0058F45F /* RoundingCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540656041FA9CF2F0058F45F /* RoundingCornersView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		540655BA1FA9B6280058F45F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540655991FA9B6280058F45F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540655A01FA9B6280058F45F;
+			remoteInfo = bezierpath;
+		};
+		540655C51FA9B6290058F45F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540655991FA9B6280058F45F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540655A01FA9B6280058F45F;
+			remoteInfo = bezierpath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		540655A11FA9B6280058F45F /* bezierpath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bezierpath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		540655A41FA9B6280058F45F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		540655A51FA9B6280058F45F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		540655A71FA9B6280058F45F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		540655A81FA9B6280058F45F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		540655AD1FA9B6280058F45F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		540655B21FA9B6280058F45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540655B31FA9B6280058F45F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		540655B91FA9B6280058F45F /* bezierpathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bezierpathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		540655BD1FA9B6280058F45F /* bezierpathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bezierpathTests.m; sourceTree = "<group>"; };
+		540655BF1FA9B6280058F45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540655C41FA9B6290058F45F /* bezierpathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bezierpathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		540655C81FA9B6290058F45F /* bezierpathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bezierpathUITests.m; sourceTree = "<group>"; };
+		540655CA1FA9B6290058F45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540655D61FA9B8230058F45F /* RectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectView.h; sourceTree = "<group>"; };
+		540655D71FA9B8230058F45F /* RectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectView.m; sourceTree = "<group>"; };
+		540655D91FA9BAA20058F45F /* DrawPolygonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawPolygonViewController.h; sourceTree = "<group>"; };
+		540655DA1FA9BAA20058F45F /* DrawPolygonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPolygonViewController.m; sourceTree = "<group>"; };
+		540655DC1FA9BBD00058F45F /* DrawPolygonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawPolygonView.h; sourceTree = "<group>"; };
+		540655DD1FA9BBD00058F45F /* DrawPolygonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPolygonView.m; sourceTree = "<group>"; };
+		540655DF1FA9BE420058F45F /* RectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectViewController.h; sourceTree = "<group>"; };
+		540655E01FA9BE420058F45F /* RectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectViewController.m; sourceTree = "<group>"; };
+		540655E21FA9BF700058F45F /* OvalInRectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OvalInRectViewController.h; sourceTree = "<group>"; };
+		540655E31FA9BF700058F45F /* OvalInRectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OvalInRectViewController.m; sourceTree = "<group>"; };
+		540655E51FA9BF8C0058F45F /* OvalInRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OvalInRectView.h; sourceTree = "<group>"; };
+		540655E61FA9BF8C0058F45F /* OvalInRectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OvalInRectView.m; sourceTree = "<group>"; };
+		540655E81FA9C19F0058F45F /* ArcCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcCenterViewController.h; sourceTree = "<group>"; };
+		540655E91FA9C19F0058F45F /* ArcCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcCenterViewController.m; sourceTree = "<group>"; };
+		540655EB1FA9C33A0058F45F /* ArcCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcCenterView.h; sourceTree = "<group>"; };
+		540655EC1FA9C33A0058F45F /* ArcCenterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcCenterView.m; sourceTree = "<group>"; };
+		540655EE1FA9C56B0058F45F /* QuadCurveToPointViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuadCurveToPointViewController.h; sourceTree = "<group>"; };
+		540655EF1FA9C56B0058F45F /* QuadCurveToPointViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuadCurveToPointViewController.m; sourceTree = "<group>"; };
+		540655F11FA9C5930058F45F /* QuadCurveToPointView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuadCurveToPointView.h; sourceTree = "<group>"; };
+		540655F21FA9C5930058F45F /* QuadCurveToPointView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuadCurveToPointView.m; sourceTree = "<group>"; };
+		540655F41FA9C7DC0058F45F /* CurveToPointViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurveToPointViewController.h; sourceTree = "<group>"; };
+		540655F51FA9C7DC0058F45F /* CurveToPointViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurveToPointViewController.m; sourceTree = "<group>"; };
+		540655F71FA9C7FC0058F45F /* CurveToPointView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurveToPointView.h; sourceTree = "<group>"; };
+		540655F81FA9C7FC0058F45F /* CurveToPointView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurveToPointView.m; sourceTree = "<group>"; };
+		540655FA1FA9CDDB0058F45F /* RoundedRectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedRectViewController.h; sourceTree = "<group>"; };
+		540655FB1FA9CDDC0058F45F /* RoundedRectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedRectViewController.m; sourceTree = "<group>"; };
+		540655FD1FA9CDF90058F45F /* RoundedRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedRectView.h; sourceTree = "<group>"; };
+		540655FE1FA9CDF90058F45F /* RoundedRectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedRectView.m; sourceTree = "<group>"; };
+		540656001FA9CF1C0058F45F /* RoundingCornersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundingCornersViewController.h; sourceTree = "<group>"; };
+		540656011FA9CF1C0058F45F /* RoundingCornersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundingCornersViewController.m; sourceTree = "<group>"; };
+		540656031FA9CF2F0058F45F /* RoundingCornersView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundingCornersView.h; sourceTree = "<group>"; };
+		540656041FA9CF2F0058F45F /* RoundingCornersView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundingCornersView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5406559E1FA9B6280058F45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540655B61FA9B6280058F45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540655C11FA9B6290058F45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540655981FA9B6280058F45F = {
+			isa = PBXGroup;
+			children = (
+				540655A31FA9B6280058F45F /* bezierpath */,
+				540655BC1FA9B6280058F45F /* bezierpathTests */,
+				540655C71FA9B6290058F45F /* bezierpathUITests */,
+				540655A21FA9B6280058F45F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		540655A21FA9B6280058F45F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540655A11FA9B6280058F45F /* bezierpath.app */,
+				540655B91FA9B6280058F45F /* bezierpathTests.xctest */,
+				540655C41FA9B6290058F45F /* bezierpathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540655A31FA9B6280058F45F /* bezierpath */ = {
+			isa = PBXGroup;
+			children = (
+				540655A41FA9B6280058F45F /* AppDelegate.h */,
+				540655A51FA9B6280058F45F /* AppDelegate.m */,
+				540655A71FA9B6280058F45F /* ViewController.h */,
+				540655A81FA9B6280058F45F /* ViewController.m */,
+				540655D91FA9BAA20058F45F /* DrawPolygonViewController.h */,
+				540655DA1FA9BAA20058F45F /* DrawPolygonViewController.m */,
+				540655DC1FA9BBD00058F45F /* DrawPolygonView.h */,
+				540655DD1FA9BBD00058F45F /* DrawPolygonView.m */,
+				540655DF1FA9BE420058F45F /* RectViewController.h */,
+				540655E01FA9BE420058F45F /* RectViewController.m */,
+				540655D61FA9B8230058F45F /* RectView.h */,
+				540655D71FA9B8230058F45F /* RectView.m */,
+				540655E21FA9BF700058F45F /* OvalInRectViewController.h */,
+				540655E31FA9BF700058F45F /* OvalInRectViewController.m */,
+				540655E51FA9BF8C0058F45F /* OvalInRectView.h */,
+				540655E61FA9BF8C0058F45F /* OvalInRectView.m */,
+				540655E81FA9C19F0058F45F /* ArcCenterViewController.h */,
+				540655E91FA9C19F0058F45F /* ArcCenterViewController.m */,
+				540655EB1FA9C33A0058F45F /* ArcCenterView.h */,
+				540655EC1FA9C33A0058F45F /* ArcCenterView.m */,
+				540655EE1FA9C56B0058F45F /* QuadCurveToPointViewController.h */,
+				540655EF1FA9C56B0058F45F /* QuadCurveToPointViewController.m */,
+				540655F11FA9C5930058F45F /* QuadCurveToPointView.h */,
+				540655F21FA9C5930058F45F /* QuadCurveToPointView.m */,
+				540655F41FA9C7DC0058F45F /* CurveToPointViewController.h */,
+				540655F51FA9C7DC0058F45F /* CurveToPointViewController.m */,
+				540655F71FA9C7FC0058F45F /* CurveToPointView.h */,
+				540655F81FA9C7FC0058F45F /* CurveToPointView.m */,
+				540655FA1FA9CDDB0058F45F /* RoundedRectViewController.h */,
+				540655FB1FA9CDDC0058F45F /* RoundedRectViewController.m */,
+				540655FD1FA9CDF90058F45F /* RoundedRectView.h */,
+				540655FE1FA9CDF90058F45F /* RoundedRectView.m */,
+				540656001FA9CF1C0058F45F /* RoundingCornersViewController.h */,
+				540656011FA9CF1C0058F45F /* RoundingCornersViewController.m */,
+				540656031FA9CF2F0058F45F /* RoundingCornersView.h */,
+				540656041FA9CF2F0058F45F /* RoundingCornersView.m */,
+				540655AD1FA9B6280058F45F /* Assets.xcassets */,
+				540655B21FA9B6280058F45F /* Info.plist */,
+				540655B31FA9B6280058F45F /* main.m */,
+			);
+			path = bezierpath;
+			sourceTree = "<group>";
+		};
+		540655BC1FA9B6280058F45F /* bezierpathTests */ = {
+			isa = PBXGroup;
+			children = (
+				540655BD1FA9B6280058F45F /* bezierpathTests.m */,
+				540655BF1FA9B6280058F45F /* Info.plist */,
+			);
+			path = bezierpathTests;
+			sourceTree = "<group>";
+		};
+		540655C71FA9B6290058F45F /* bezierpathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				540655C81FA9B6290058F45F /* bezierpathUITests.m */,
+				540655CA1FA9B6290058F45F /* Info.plist */,
+			);
+			path = bezierpathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540655A01FA9B6280058F45F /* bezierpath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540655CD1FA9B6290058F45F /* Build configuration list for PBXNativeTarget "bezierpath" */;
+			buildPhases = (
+				5406559D1FA9B6280058F45F /* Sources */,
+				5406559E1FA9B6280058F45F /* Frameworks */,
+				5406559F1FA9B6280058F45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bezierpath;
+			productName = bezierpath;
+			productReference = 540655A11FA9B6280058F45F /* bezierpath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		540655B81FA9B6280058F45F /* bezierpathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540655D01FA9B6290058F45F /* Build configuration list for PBXNativeTarget "bezierpathTests" */;
+			buildPhases = (
+				540655B51FA9B6280058F45F /* Sources */,
+				540655B61FA9B6280058F45F /* Frameworks */,
+				540655B71FA9B6280058F45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540655BB1FA9B6280058F45F /* PBXTargetDependency */,
+			);
+			name = bezierpathTests;
+			productName = bezierpathTests;
+			productReference = 540655B91FA9B6280058F45F /* bezierpathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		540655C31FA9B6290058F45F /* bezierpathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540655D31FA9B6290058F45F /* Build configuration list for PBXNativeTarget "bezierpathUITests" */;
+			buildPhases = (
+				540655C01FA9B6290058F45F /* Sources */,
+				540655C11FA9B6290058F45F /* Frameworks */,
+				540655C21FA9B6290058F45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540655C61FA9B6290058F45F /* PBXTargetDependency */,
+			);
+			name = bezierpathUITests;
+			productName = bezierpathUITests;
+			productReference = 540655C41FA9B6290058F45F /* bezierpathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540655991FA9B6280058F45F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "刘渊";
+				TargetAttributes = {
+					540655A01FA9B6280058F45F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					540655B81FA9B6280058F45F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 540655A01FA9B6280058F45F;
+					};
+					540655C31FA9B6290058F45F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 540655A01FA9B6280058F45F;
+					};
+				};
+			};
+			buildConfigurationList = 5406559C1FA9B6280058F45F /* Build configuration list for PBXProject "bezierpath" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 540655981FA9B6280058F45F;
+			productRefGroup = 540655A21FA9B6280058F45F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540655A01FA9B6280058F45F /* bezierpath */,
+				540655B81FA9B6280058F45F /* bezierpathTests */,
+				540655C31FA9B6290058F45F /* bezierpathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5406559F1FA9B6280058F45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540655AE1FA9B6280058F45F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540655B71FA9B6280058F45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540655C21FA9B6290058F45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5406559D1FA9B6280058F45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540655ED1FA9C33A0058F45F /* ArcCenterView.m in Sources */,
+				540655F31FA9C5930058F45F /* QuadCurveToPointView.m in Sources */,
+				540655A91FA9B6280058F45F /* ViewController.m in Sources */,
+				540655F01FA9C56B0058F45F /* QuadCurveToPointViewController.m in Sources */,
+				540655FC1FA9CDDC0058F45F /* RoundedRectViewController.m in Sources */,
+				540655DB1FA9BAA20058F45F /* DrawPolygonViewController.m in Sources */,
+				540655B41FA9B6280058F45F /* main.m in Sources */,
+				540656051FA9CF2F0058F45F /* RoundingCornersView.m in Sources */,
+				540655F61FA9C7DC0058F45F /* CurveToPointViewController.m in Sources */,
+				540655E71FA9BF8C0058F45F /* OvalInRectView.m in Sources */,
+				540655E41FA9BF700058F45F /* OvalInRectViewController.m in Sources */,
+				540655D81FA9B8230058F45F /* RectView.m in Sources */,
+				540656021FA9CF1C0058F45F /* RoundingCornersViewController.m in Sources */,
+				540655FF1FA9CDF90058F45F /* RoundedRectView.m in Sources */,
+				540655F91FA9C7FC0058F45F /* CurveToPointView.m in Sources */,
+				540655EA1FA9C19F0058F45F /* ArcCenterViewController.m in Sources */,
+				540655A61FA9B6280058F45F /* AppDelegate.m in Sources */,
+				540655DE1FA9BBD00058F45F /* DrawPolygonView.m in Sources */,
+				540655E11FA9BE420058F45F /* RectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540655B51FA9B6280058F45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540655BE1FA9B6280058F45F /* bezierpathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540655C01FA9B6290058F45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540655C91FA9B6290058F45F /* bezierpathUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		540655BB1FA9B6280058F45F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540655A01FA9B6280058F45F /* bezierpath */;
+			targetProxy = 540655BA1FA9B6280058F45F /* PBXContainerItemProxy */;
+		};
+		540655C61FA9B6290058F45F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540655A01FA9B6280058F45F /* bezierpath */;
+			targetProxy = 540655C51FA9B6290058F45F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		540655CB1FA9B6290058F45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		540655CC1FA9B6290058F45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		540655CE1FA9B6290058F45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bezierpath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.bezierpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		540655CF1FA9B6290058F45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bezierpath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.bezierpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		540655D11FA9B6290058F45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bezierpathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.bezierpathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bezierpath.app/bezierpath";
+			};
+			name = Debug;
+		};
+		540655D21FA9B6290058F45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bezierpathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.bezierpathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bezierpath.app/bezierpath";
+			};
+			name = Release;
+		};
+		540655D41FA9B6290058F45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bezierpathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.bezierpathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bezierpath;
+			};
+			name = Debug;
+		};
+		540655D51FA9B6290058F45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = bezierpathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.bezierpathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bezierpath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5406559C1FA9B6280058F45F /* Build configuration list for PBXProject "bezierpath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540655CB1FA9B6290058F45F /* Debug */,
+				540655CC1FA9B6290058F45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540655CD1FA9B6290058F45F /* Build configuration list for PBXNativeTarget "bezierpath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540655CE1FA9B6290058F45F /* Debug */,
+				540655CF1FA9B6290058F45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540655D01FA9B6290058F45F /* Build configuration list for PBXNativeTarget "bezierpathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540655D11FA9B6290058F45F /* Debug */,
+				540655D21FA9B6290058F45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540655D31FA9B6290058F45F /* Build configuration list for PBXNativeTarget "bezierpathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540655D41FA9B6290058F45F /* Debug */,
+				540655D51FA9B6290058F45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 540655991FA9B6280058F45F /* Project object */;
+}

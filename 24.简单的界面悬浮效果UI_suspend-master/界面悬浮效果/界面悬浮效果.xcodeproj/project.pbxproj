@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E78DFB38C16AE85A13BB60F /* Pods_______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8FDE5B0388472D56D417A9 /* Pods_______Tests.framework */; };
+		542FC2701F447EBF00559251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542FC26F1F447EBF00559251 /* AppDelegate.swift */; };
+		542FC2721F447EBF00559251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542FC2711F447EBF00559251 /* ViewController.swift */; };
+		542FC2751F447EBF00559251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542FC2731F447EBF00559251 /* Main.storyboard */; };
+		542FC2771F447EBF00559251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542FC2761F447EBF00559251 /* Assets.xcassets */; };
+		542FC27A1F447EBF00559251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542FC2781F447EBF00559251 /* LaunchScreen.storyboard */; };
+		542FC2851F447EBF00559251 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542FC2841F447EBF00559251 /* ______Tests.swift */; };
+		542FC2901F447EBF00559251 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542FC28F1F447EBF00559251 /* ______UITests.swift */; };
+		542FC2A01F4491B600559251 /* JianShuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542FC29F1F4491B600559251 /* JianShuViewController.swift */; };
+		64554EE4074360A108A6480A /* Pods_______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226D87EDE3544D443CDEB640 /* Pods_______UITests.framework */; };
+		954AC47F9188F85F4D6CBBFA /* Pods_______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4572F9B7F50103F8349BE64 /* Pods_______.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		542FC2811F447EBF00559251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542FC2641F447EBF00559251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542FC26B1F447EBF00559251;
+			remoteInfo = "界面悬浮效果";
+		};
+		542FC28C1F447EBF00559251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542FC2641F447EBF00559251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542FC26B1F447EBF00559251;
+			remoteInfo = "界面悬浮效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D94D61B69403FD049C9F722 /* Pods-界面悬浮效果Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-界面悬浮效果Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-界面悬浮效果Tests/Pods-界面悬浮效果Tests.release.xcconfig"; sourceTree = "<group>"; };
+		13002261BDC9F69CBD04FFB5 /* Pods-界面悬浮效果Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-界面悬浮效果Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-界面悬浮效果Tests/Pods-界面悬浮效果Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		226D87EDE3544D443CDEB640 /* Pods_______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542FC26C1F447EBF00559251 /* 界面悬浮效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "界面悬浮效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542FC26F1F447EBF00559251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		542FC2711F447EBF00559251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		542FC2741F447EBF00559251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		542FC2761F447EBF00559251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		542FC2791F447EBF00559251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		542FC27B1F447EBF00559251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542FC2801F447EBF00559251 /* 界面悬浮效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "界面悬浮效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542FC2841F447EBF00559251 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		542FC2861F447EBF00559251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542FC28B1F447EBF00559251 /* 界面悬浮效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "界面悬浮效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542FC28F1F447EBF00559251 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		542FC2911F447EBF00559251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542FC29F1F4491B600559251 /* JianShuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JianShuViewController.swift; sourceTree = "<group>"; };
+		5F6C7FA5F127B1198D4D4EB7 /* Pods-界面悬浮效果UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-界面悬浮效果UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-界面悬浮效果UITests/Pods-界面悬浮效果UITests.release.xcconfig"; sourceTree = "<group>"; };
+		838369B089EC56FDBFB3CFE9 /* Pods-界面悬浮效果.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-界面悬浮效果.release.xcconfig"; path = "Pods/Target Support Files/Pods-界面悬浮效果/Pods-界面悬浮效果.release.xcconfig"; sourceTree = "<group>"; };
+		A4572F9B7F50103F8349BE64 /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC9C2A2E5786AB3C6907776 /* Pods-界面悬浮效果UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-界面悬浮效果UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-界面悬浮效果UITests/Pods-界面悬浮效果UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E380C8ACE0DA87F04B84AC01 /* Pods-界面悬浮效果.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-界面悬浮效果.debug.xcconfig"; path = "Pods/Target Support Files/Pods-界面悬浮效果/Pods-界面悬浮效果.debug.xcconfig"; sourceTree = "<group>"; };
+		ED8FDE5B0388472D56D417A9 /* Pods_______Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		542FC2691F447EBF00559251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954AC47F9188F85F4D6CBBFA /* Pods_______.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542FC27D1F447EBF00559251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E78DFB38C16AE85A13BB60F /* Pods_______Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542FC2881F447EBF00559251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64554EE4074360A108A6480A /* Pods_______UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20CA0E5C14FD613464AEA5E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4572F9B7F50103F8349BE64 /* Pods_______.framework */,
+				ED8FDE5B0388472D56D417A9 /* Pods_______Tests.framework */,
+				226D87EDE3544D443CDEB640 /* Pods_______UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		542FC2631F447EBF00559251 = {
+			isa = PBXGroup;
+			children = (
+				542FC26E1F447EBF00559251 /* 界面悬浮效果 */,
+				542FC2831F447EBF00559251 /* 界面悬浮效果Tests */,
+				542FC28E1F447EBF00559251 /* 界面悬浮效果UITests */,
+				542FC26D1F447EBF00559251 /* Products */,
+				C71EE18E158DCB4D31A25EF0 /* Pods */,
+				20CA0E5C14FD613464AEA5E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		542FC26D1F447EBF00559251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				542FC26C1F447EBF00559251 /* 界面悬浮效果.app */,
+				542FC2801F447EBF00559251 /* 界面悬浮效果Tests.xctest */,
+				542FC28B1F447EBF00559251 /* 界面悬浮效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		542FC26E1F447EBF00559251 /* 界面悬浮效果 */ = {
+			isa = PBXGroup;
+			children = (
+				542FC26F1F447EBF00559251 /* AppDelegate.swift */,
+				542FC2711F447EBF00559251 /* ViewController.swift */,
+				542FC29F1F4491B600559251 /* JianShuViewController.swift */,
+				542FC2731F447EBF00559251 /* Main.storyboard */,
+				542FC2761F447EBF00559251 /* Assets.xcassets */,
+				542FC2781F447EBF00559251 /* LaunchScreen.storyboard */,
+				542FC27B1F447EBF00559251 /* Info.plist */,
+			);
+			path = "界面悬浮效果";
+			sourceTree = "<group>";
+		};
+		542FC2831F447EBF00559251 /* 界面悬浮效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				542FC2841F447EBF00559251 /* ______Tests.swift */,
+				542FC2861F447EBF00559251 /* Info.plist */,
+			);
+			path = "界面悬浮效果Tests";
+			sourceTree = "<group>";
+		};
+		542FC28E1F447EBF00559251 /* 界面悬浮效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				542FC28F1F447EBF00559251 /* ______UITests.swift */,
+				542FC2911F447EBF00559251 /* Info.plist */,
+			);
+			path = "界面悬浮效果UITests";
+			sourceTree = "<group>";
+		};
+		C71EE18E158DCB4D31A25EF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E380C8ACE0DA87F04B84AC01 /* Pods-界面悬浮效果.debug.xcconfig */,
+				838369B089EC56FDBFB3CFE9 /* Pods-界面悬浮效果.release.xcconfig */,
+				13002261BDC9F69CBD04FFB5 /* Pods-界面悬浮效果Tests.debug.xcconfig */,
+				0D94D61B69403FD049C9F722 /* Pods-界面悬浮效果Tests.release.xcconfig */,
+				CBC9C2A2E5786AB3C6907776 /* Pods-界面悬浮效果UITests.debug.xcconfig */,
+				5F6C7FA5F127B1198D4D4EB7 /* Pods-界面悬浮效果UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		542FC26B1F447EBF00559251 /* 界面悬浮效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542FC2941F447EBF00559251 /* Build configuration list for PBXNativeTarget "界面悬浮效果" */;
+			buildPhases = (
+				6621D341AAEE4BAB94BC95E5 /* [CP] Check Pods Manifest.lock */,
+				542FC2681F447EBF00559251 /* Sources */,
+				542FC2691F447EBF00559251 /* Frameworks */,
+				542FC26A1F447EBF00559251 /* Resources */,
+				B9E1FA07B7C81051CE511FF6 /* [CP] Embed Pods Frameworks */,
+				54A4F2A98A1A8CED881E8C8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "界面悬浮效果";
+			productName = "界面悬浮效果";
+			productReference = 542FC26C1F447EBF00559251 /* 界面悬浮效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		542FC27F1F447EBF00559251 /* 界面悬浮效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542FC2971F447EBF00559251 /* Build configuration list for PBXNativeTarget "界面悬浮效果Tests" */;
+			buildPhases = (
+				AD5474A739CA3BBC375AC6BD /* [CP] Check Pods Manifest.lock */,
+				542FC27C1F447EBF00559251 /* Sources */,
+				542FC27D1F447EBF00559251 /* Frameworks */,
+				542FC27E1F447EBF00559251 /* Resources */,
+				DB82A0272E44E118F3BD003E /* [CP] Embed Pods Frameworks */,
+				552429C33DEB5655C4995A6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542FC2821F447EBF00559251 /* PBXTargetDependency */,
+			);
+			name = "界面悬浮效果Tests";
+			productName = "界面悬浮效果Tests";
+			productReference = 542FC2801F447EBF00559251 /* 界面悬浮效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		542FC28A1F447EBF00559251 /* 界面悬浮效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542FC29A1F447EBF00559251 /* Build configuration list for PBXNativeTarget "界面悬浮效果UITests" */;
+			buildPhases = (
+				3ED24DCFF1A783E3FF36B854 /* [CP] Check Pods Manifest.lock */,
+				542FC2871F447EBF00559251 /* Sources */,
+				542FC2881F447EBF00559251 /* Frameworks */,
+				542FC2891F447EBF00559251 /* Resources */,
+				212697547CE2565442757AB3 /* [CP] Embed Pods Frameworks */,
+				25A86F3AF622E4A2F1784F34 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542FC28D1F447EBF00559251 /* PBXTargetDependency */,
+			);
+			name = "界面悬浮效果UITests";
+			productName = "界面悬浮效果UITests";
+			productReference = 542FC28B1F447EBF00559251 /* 界面悬浮效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		542FC2641F447EBF00559251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "刘渊";
+				TargetAttributes = {
+					542FC26B1F447EBF00559251 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					542FC27F1F447EBF00559251 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 542FC26B1F447EBF00559251;
+					};
+					542FC28A1F447EBF00559251 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 542FC26B1F447EBF00559251;
+					};
+				};
+			};
+			buildConfigurationList = 542FC2671F447EBF00559251 /* Build configuration list for PBXProject "界面悬浮效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 542FC2631F447EBF00559251;
+			productRefGroup = 542FC26D1F447EBF00559251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				542FC26B1F447EBF00559251 /* 界面悬浮效果 */,
+				542FC27F1F447EBF00559251 /* 界面悬浮效果Tests */,
+				542FC28A1F447EBF00559251 /* 界面悬浮效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		542FC26A1F447EBF00559251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542FC27A1F447EBF00559251 /* LaunchScreen.storyboard in Resources */,
+				542FC2771F447EBF00559251 /* Assets.xcassets in Resources */,
+				542FC2751F447EBF00559251 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542FC27E1F447EBF00559251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542FC2891F447EBF00559251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		212697547CE2565442757AB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-界面悬浮效果UITests/Pods-界面悬浮效果UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25A86F3AF622E4A2F1784F34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-界面悬浮效果UITests/Pods-界面悬浮效果UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED24DCFF1A783E3FF36B854 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-界面悬浮效果UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A4F2A98A1A8CED881E8C8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-界面悬浮效果/Pods-界面悬浮效果-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		552429C33DEB5655C4995A6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-界面悬浮效果Tests/Pods-界面悬浮效果Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6621D341AAEE4BAB94BC95E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-界面悬浮效果-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD5474A739CA3BBC375AC6BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-界面悬浮效果Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9E1FA07B7C81051CE511FF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-界面悬浮效果/Pods-界面悬浮效果-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-界面悬浮效果/Pods-界面悬浮效果-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB82A0272E44E118F3BD003E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-界面悬浮效果Tests/Pods-界面悬浮效果Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		542FC2681F447EBF00559251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542FC2A01F4491B600559251 /* JianShuViewController.swift in Sources */,
+				542FC2721F447EBF00559251 /* ViewController.swift in Sources */,
+				542FC2701F447EBF00559251 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542FC27C1F447EBF00559251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542FC2851F447EBF00559251 /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542FC2871F447EBF00559251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542FC2901F447EBF00559251 /* ______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		542FC2821F447EBF00559251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542FC26B1F447EBF00559251 /* 界面悬浮效果 */;
+			targetProxy = 542FC2811F447EBF00559251 /* PBXContainerItemProxy */;
+		};
+		542FC28D1F447EBF00559251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542FC26B1F447EBF00559251 /* 界面悬浮效果 */;
+			targetProxy = 542FC28C1F447EBF00559251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		542FC2731F447EBF00559251 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542FC2741F447EBF00559251 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		542FC2781F447EBF00559251 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542FC2791F447EBF00559251 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		542FC2921F447EBF00559251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		542FC2931F447EBF00559251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542FC2951F447EBF00559251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E380C8ACE0DA87F04B84AC01 /* Pods-界面悬浮效果.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "界面悬浮效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		542FC2961F447EBF00559251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838369B089EC56FDBFB3CFE9 /* Pods-界面悬浮效果.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "界面悬浮效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		542FC2981F447EBF00559251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13002261BDC9F69CBD04FFB5 /* Pods-界面悬浮效果Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "界面悬浮效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/界面悬浮效果.app/界面悬浮效果";
+			};
+			name = Debug;
+		};
+		542FC2991F447EBF00559251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D94D61B69403FD049C9F722 /* Pods-界面悬浮效果Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "界面悬浮效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/界面悬浮效果.app/界面悬浮效果";
+			};
+			name = Release;
+		};
+		542FC29B1F447EBF00559251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC9C2A2E5786AB3C6907776 /* Pods-界面悬浮效果UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "界面悬浮效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "界面悬浮效果";
+			};
+			name = Debug;
+		};
+		542FC29C1F447EBF00559251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6C7FA5F127B1198D4D4EB7 /* Pods-界面悬浮效果UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "界面悬浮效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "界面悬浮效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		542FC2671F447EBF00559251 /* Build configuration list for PBXProject "界面悬浮效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542FC2921F447EBF00559251 /* Debug */,
+				542FC2931F447EBF00559251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542FC2941F447EBF00559251 /* Build configuration list for PBXNativeTarget "界面悬浮效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542FC2951F447EBF00559251 /* Debug */,
+				542FC2961F447EBF00559251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542FC2971F447EBF00559251 /* Build configuration list for PBXNativeTarget "界面悬浮效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542FC2981F447EBF00559251 /* Debug */,
+				542FC2991F447EBF00559251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542FC29A1F447EBF00559251 /* Build configuration list for PBXNativeTarget "界面悬浮效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542FC29B1F447EBF00559251 /* Debug */,
+				542FC29C1F447EBF00559251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 542FC2641F447EBF00559251 /* Project object */;
+}
