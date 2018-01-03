@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54449A221FF2391700116625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54449A211FF2391700116625 /* AppDelegate.m */; };
+		54449A251FF2391700116625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54449A241FF2391700116625 /* ViewController.m */; };
+		54449A281FF2391700116625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54449A261FF2391700116625 /* Main.storyboard */; };
+		54449A2A1FF2391700116625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54449A291FF2391700116625 /* Assets.xcassets */; };
+		54449A2D1FF2391700116625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54449A2B1FF2391700116625 /* LaunchScreen.storyboard */; };
+		54449A301FF2391700116625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54449A2F1FF2391700116625 /* main.m */; };
+		54449A3A1FF2391700116625 /* __________________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54449A391FF2391700116625 /* __________________Tests.m */; };
+		54449A451FF2391700116625 /* __________________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54449A441FF2391700116625 /* __________________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54449A361FF2391700116625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54449A151FF2391700116625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54449A1C1FF2391700116625;
+			remoteInfo = "将一个数组中的数据插入到另一个数组中";
+		};
+		54449A411FF2391700116625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54449A151FF2391700116625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54449A1C1FF2391700116625;
+			remoteInfo = "将一个数组中的数据插入到另一个数组中";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54449A1D1FF2391700116625 /* 将一个数组中的数据插入到另一个数组中.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "将一个数组中的数据插入到另一个数组中.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54449A201FF2391700116625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54449A211FF2391700116625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54449A231FF2391700116625 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54449A241FF2391700116625 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54449A271FF2391700116625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54449A291FF2391700116625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54449A2C1FF2391700116625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54449A2E1FF2391700116625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54449A2F1FF2391700116625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54449A351FF2391700116625 /* 将一个数组中的数据插入到另一个数组中Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "将一个数组中的数据插入到另一个数组中Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54449A391FF2391700116625 /* __________________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________________Tests.m"; sourceTree = "<group>"; };
+		54449A3B1FF2391700116625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54449A401FF2391700116625 /* 将一个数组中的数据插入到另一个数组中UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "将一个数组中的数据插入到另一个数组中UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54449A441FF2391700116625 /* __________________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________________UITests.m"; sourceTree = "<group>"; };
+		54449A461FF2391700116625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54449A1A1FF2391700116625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54449A321FF2391700116625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54449A3D1FF2391700116625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54449A141FF2391700116625 = {
+			isa = PBXGroup;
+			children = (
+				54449A1F1FF2391700116625 /* 将一个数组中的数据插入到另一个数组中 */,
+				54449A381FF2391700116625 /* 将一个数组中的数据插入到另一个数组中Tests */,
+				54449A431FF2391700116625 /* 将一个数组中的数据插入到另一个数组中UITests */,
+				54449A1E1FF2391700116625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54449A1E1FF2391700116625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54449A1D1FF2391700116625 /* 将一个数组中的数据插入到另一个数组中.app */,
+				54449A351FF2391700116625 /* 将一个数组中的数据插入到另一个数组中Tests.xctest */,
+				54449A401FF2391700116625 /* 将一个数组中的数据插入到另一个数组中UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54449A1F1FF2391700116625 /* 将一个数组中的数据插入到另一个数组中 */ = {
+			isa = PBXGroup;
+			children = (
+				54449A201FF2391700116625 /* AppDelegate.h */,
+				54449A211FF2391700116625 /* AppDelegate.m */,
+				54449A231FF2391700116625 /* ViewController.h */,
+				54449A241FF2391700116625 /* ViewController.m */,
+				54449A261FF2391700116625 /* Main.storyboard */,
+				54449A291FF2391700116625 /* Assets.xcassets */,
+				54449A2B1FF2391700116625 /* LaunchScreen.storyboard */,
+				54449A2E1FF2391700116625 /* Info.plist */,
+				54449A2F1FF2391700116625 /* main.m */,
+			);
+			path = "将一个数组中的数据插入到另一个数组中";
+			sourceTree = "<group>";
+		};
+		54449A381FF2391700116625 /* 将一个数组中的数据插入到另一个数组中Tests */ = {
+			isa = PBXGroup;
+			children = (
+				54449A391FF2391700116625 /* __________________Tests.m */,
+				54449A3B1FF2391700116625 /* Info.plist */,
+			);
+			path = "将一个数组中的数据插入到另一个数组中Tests";
+			sourceTree = "<group>";
+		};
+		54449A431FF2391700116625 /* 将一个数组中的数据插入到另一个数组中UITests */ = {
+			isa = PBXGroup;
+			children = (
+				54449A441FF2391700116625 /* __________________UITests.m */,
+				54449A461FF2391700116625 /* Info.plist */,
+			);
+			path = "将一个数组中的数据插入到另一个数组中UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54449A1C1FF2391700116625 /* 将一个数组中的数据插入到另一个数组中 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54449A491FF2391700116625 /* Build configuration list for PBXNativeTarget "将一个数组中的数据插入到另一个数组中" */;
+			buildPhases = (
+				54449A191FF2391700116625 /* Sources */,
+				54449A1A1FF2391700116625 /* Frameworks */,
+				54449A1B1FF2391700116625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "将一个数组中的数据插入到另一个数组中";
+			productName = "将一个数组中的数据插入到另一个数组中";
+			productReference = 54449A1D1FF2391700116625 /* 将一个数组中的数据插入到另一个数组中.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54449A341FF2391700116625 /* 将一个数组中的数据插入到另一个数组中Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54449A4C1FF2391700116625 /* Build configuration list for PBXNativeTarget "将一个数组中的数据插入到另一个数组中Tests" */;
+			buildPhases = (
+				54449A311FF2391700116625 /* Sources */,
+				54449A321FF2391700116625 /* Frameworks */,
+				54449A331FF2391700116625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54449A371FF2391700116625 /* PBXTargetDependency */,
+			);
+			name = "将一个数组中的数据插入到另一个数组中Tests";
+			productName = "将一个数组中的数据插入到另一个数组中Tests";
+			productReference = 54449A351FF2391700116625 /* 将一个数组中的数据插入到另一个数组中Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54449A3F1FF2391700116625 /* 将一个数组中的数据插入到另一个数组中UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54449A4F1FF2391700116625 /* Build configuration list for PBXNativeTarget "将一个数组中的数据插入到另一个数组中UITests" */;
+			buildPhases = (
+				54449A3C1FF2391700116625 /* Sources */,
+				54449A3D1FF2391700116625 /* Frameworks */,
+				54449A3E1FF2391700116625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54449A421FF2391700116625 /* PBXTargetDependency */,
+			);
+			name = "将一个数组中的数据插入到另一个数组中UITests";
+			productName = "将一个数组中的数据插入到另一个数组中UITests";
+			productReference = 54449A401FF2391700116625 /* 将一个数组中的数据插入到另一个数组中UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54449A151FF2391700116625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LiuYuan;
+				TargetAttributes = {
+					54449A1C1FF2391700116625 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					54449A341FF2391700116625 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54449A1C1FF2391700116625;
+					};
+					54449A3F1FF2391700116625 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54449A1C1FF2391700116625;
+					};
+				};
+			};
+			buildConfigurationList = 54449A181FF2391700116625 /* Build configuration list for PBXProject "将一个数组中的数据插入到另一个数组中" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54449A141FF2391700116625;
+			productRefGroup = 54449A1E1FF2391700116625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54449A1C1FF2391700116625 /* 将一个数组中的数据插入到另一个数组中 */,
+				54449A341FF2391700116625 /* 将一个数组中的数据插入到另一个数组中Tests */,
+				54449A3F1FF2391700116625 /* 将一个数组中的数据插入到另一个数组中UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54449A1B1FF2391700116625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54449A2D1FF2391700116625 /* LaunchScreen.storyboard in Resources */,
+				54449A2A1FF2391700116625 /* Assets.xcassets in Resources */,
+				54449A281FF2391700116625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54449A331FF2391700116625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54449A3E1FF2391700116625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54449A191FF2391700116625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54449A251FF2391700116625 /* ViewController.m in Sources */,
+				54449A301FF2391700116625 /* main.m in Sources */,
+				54449A221FF2391700116625 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54449A311FF2391700116625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54449A3A1FF2391700116625 /* __________________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54449A3C1FF2391700116625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54449A451FF2391700116625 /* __________________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54449A371FF2391700116625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54449A1C1FF2391700116625 /* 将一个数组中的数据插入到另一个数组中 */;
+			targetProxy = 54449A361FF2391700116625 /* PBXContainerItemProxy */;
+		};
+		54449A421FF2391700116625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54449A1C1FF2391700116625 /* 将一个数组中的数据插入到另一个数组中 */;
+			targetProxy = 54449A411FF2391700116625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54449A261FF2391700116625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54449A271FF2391700116625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54449A2B1FF2391700116625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54449A2C1FF2391700116625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54449A471FF2391700116625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54449A481FF2391700116625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54449A4A1FF2391700116625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "将一个数组中的数据插入到另一个数组中/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54449A4B1FF2391700116625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "将一个数组中的数据插入到另一个数组中/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54449A4D1FF2391700116625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "将一个数组中的数据插入到另一个数组中Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/将一个数组中的数据插入到另一个数组中.app/将一个数组中的数据插入到另一个数组中";
+			};
+			name = Debug;
+		};
+		54449A4E1FF2391700116625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "将一个数组中的数据插入到另一个数组中Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/将一个数组中的数据插入到另一个数组中.app/将一个数组中的数据插入到另一个数组中";
+			};
+			name = Release;
+		};
+		54449A501FF2391700116625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "将一个数组中的数据插入到另一个数组中UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "将一个数组中的数据插入到另一个数组中";
+			};
+			name = Debug;
+		};
+		54449A511FF2391700116625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "将一个数组中的数据插入到另一个数组中UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "将一个数组中的数据插入到另一个数组中";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54449A181FF2391700116625 /* Build configuration list for PBXProject "将一个数组中的数据插入到另一个数组中" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54449A471FF2391700116625 /* Debug */,
+				54449A481FF2391700116625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54449A491FF2391700116625 /* Build configuration list for PBXNativeTarget "将一个数组中的数据插入到另一个数组中" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54449A4A1FF2391700116625 /* Debug */,
+				54449A4B1FF2391700116625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54449A4C1FF2391700116625 /* Build configuration list for PBXNativeTarget "将一个数组中的数据插入到另一个数组中Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54449A4D1FF2391700116625 /* Debug */,
+				54449A4E1FF2391700116625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54449A4F1FF2391700116625 /* Build configuration list for PBXNativeTarget "将一个数组中的数据插入到另一个数组中UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54449A501FF2391700116625 /* Debug */,
+				54449A511FF2391700116625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54449A151FF2391700116625 /* Project object */;
+}

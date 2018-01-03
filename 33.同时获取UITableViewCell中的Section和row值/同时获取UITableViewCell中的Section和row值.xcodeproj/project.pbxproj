@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546EB6421FF12D6400D6623E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EB6411FF12D6400D6623E /* AppDelegate.m */; };
+		546EB6451FF12D6400D6623E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EB6441FF12D6400D6623E /* ViewController.m */; };
+		546EB6481FF12D6400D6623E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546EB6461FF12D6400D6623E /* Main.storyboard */; };
+		546EB64A1FF12D6400D6623E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546EB6491FF12D6400D6623E /* Assets.xcassets */; };
+		546EB64D1FF12D6400D6623E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546EB64B1FF12D6400D6623E /* LaunchScreen.storyboard */; };
+		546EB6501FF12D6400D6623E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EB64F1FF12D6400D6623E /* main.m */; };
+		546EB65A1FF12D6500D6623E /* ____UITableViewCell__Section_row_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EB6591FF12D6500D6623E /* ____UITableViewCell__Section_row_Tests.m */; };
+		546EB6651FF12D6500D6623E /* ____UITableViewCell__Section_row_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EB6641FF12D6500D6623E /* ____UITableViewCell__Section_row_UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		546EB6561FF12D6500D6623E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 546EB6351FF12D6400D6623E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 546EB63C1FF12D6400D6623E;
+			remoteInfo = "同时获取UITableViewCell中的Section和row值";
+		};
+		546EB6611FF12D6500D6623E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 546EB6351FF12D6400D6623E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 546EB63C1FF12D6400D6623E;
+			remoteInfo = "同时获取UITableViewCell中的Section和row值";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		546EB63D1FF12D6400D6623E /* 同时获取UITableViewCell中的Section和row值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "同时获取UITableViewCell中的Section和row值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		546EB6401FF12D6400D6623E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		546EB6411FF12D6400D6623E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		546EB6431FF12D6400D6623E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		546EB6441FF12D6400D6623E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		546EB6471FF12D6400D6623E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		546EB6491FF12D6400D6623E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		546EB64C1FF12D6400D6623E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		546EB64E1FF12D6400D6623E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546EB64F1FF12D6400D6623E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		546EB6551FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "同时获取UITableViewCell中的Section和row值Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		546EB6591FF12D6500D6623E /* ____UITableViewCell__Section_row_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITableViewCell__Section_row_Tests.m"; sourceTree = "<group>"; };
+		546EB65B1FF12D6500D6623E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546EB6601FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "同时获取UITableViewCell中的Section和row值UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		546EB6641FF12D6500D6623E /* ____UITableViewCell__Section_row_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITableViewCell__Section_row_UITests.m"; sourceTree = "<group>"; };
+		546EB6661FF12D6500D6623E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		546EB63A1FF12D6400D6623E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546EB6521FF12D6500D6623E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546EB65D1FF12D6500D6623E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		546EB6341FF12D6400D6623E = {
+			isa = PBXGroup;
+			children = (
+				546EB63F1FF12D6400D6623E /* 同时获取UITableViewCell中的Section和row值 */,
+				546EB6581FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值Tests */,
+				546EB6631FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值UITests */,
+				546EB63E1FF12D6400D6623E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		546EB63E1FF12D6400D6623E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546EB63D1FF12D6400D6623E /* 同时获取UITableViewCell中的Section和row值.app */,
+				546EB6551FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值Tests.xctest */,
+				546EB6601FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		546EB63F1FF12D6400D6623E /* 同时获取UITableViewCell中的Section和row值 */ = {
+			isa = PBXGroup;
+			children = (
+				546EB6401FF12D6400D6623E /* AppDelegate.h */,
+				546EB6411FF12D6400D6623E /* AppDelegate.m */,
+				546EB6431FF12D6400D6623E /* ViewController.h */,
+				546EB6441FF12D6400D6623E /* ViewController.m */,
+				546EB6461FF12D6400D6623E /* Main.storyboard */,
+				546EB6491FF12D6400D6623E /* Assets.xcassets */,
+				546EB64B1FF12D6400D6623E /* LaunchScreen.storyboard */,
+				546EB64E1FF12D6400D6623E /* Info.plist */,
+				546EB64F1FF12D6400D6623E /* main.m */,
+			);
+			path = "同时获取UITableViewCell中的Section和row值";
+			sourceTree = "<group>";
+		};
+		546EB6581FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值Tests */ = {
+			isa = PBXGroup;
+			children = (
+				546EB6591FF12D6500D6623E /* ____UITableViewCell__Section_row_Tests.m */,
+				546EB65B1FF12D6500D6623E /* Info.plist */,
+			);
+			path = "同时获取UITableViewCell中的Section和row值Tests";
+			sourceTree = "<group>";
+		};
+		546EB6631FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值UITests */ = {
+			isa = PBXGroup;
+			children = (
+				546EB6641FF12D6500D6623E /* ____UITableViewCell__Section_row_UITests.m */,
+				546EB6661FF12D6500D6623E /* Info.plist */,
+			);
+			path = "同时获取UITableViewCell中的Section和row值UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		546EB63C1FF12D6400D6623E /* 同时获取UITableViewCell中的Section和row值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546EB6691FF12D6500D6623E /* Build configuration list for PBXNativeTarget "同时获取UITableViewCell中的Section和row值" */;
+			buildPhases = (
+				546EB6391FF12D6400D6623E /* Sources */,
+				546EB63A1FF12D6400D6623E /* Frameworks */,
+				546EB63B1FF12D6400D6623E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "同时获取UITableViewCell中的Section和row值";
+			productName = "同时获取UITableViewCell中的Section和row值";
+			productReference = 546EB63D1FF12D6400D6623E /* 同时获取UITableViewCell中的Section和row值.app */;
+			productType = "com.apple.product-type.application";
+		};
+		546EB6541FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546EB66C1FF12D6500D6623E /* Build configuration list for PBXNativeTarget "同时获取UITableViewCell中的Section和row值Tests" */;
+			buildPhases = (
+				546EB6511FF12D6500D6623E /* Sources */,
+				546EB6521FF12D6500D6623E /* Frameworks */,
+				546EB6531FF12D6500D6623E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546EB6571FF12D6500D6623E /* PBXTargetDependency */,
+			);
+			name = "同时获取UITableViewCell中的Section和row值Tests";
+			productName = "同时获取UITableViewCell中的Section和row值Tests";
+			productReference = 546EB6551FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		546EB65F1FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546EB66F1FF12D6500D6623E /* Build configuration list for PBXNativeTarget "同时获取UITableViewCell中的Section和row值UITests" */;
+			buildPhases = (
+				546EB65C1FF12D6500D6623E /* Sources */,
+				546EB65D1FF12D6500D6623E /* Frameworks */,
+				546EB65E1FF12D6500D6623E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546EB6621FF12D6500D6623E /* PBXTargetDependency */,
+			);
+			name = "同时获取UITableViewCell中的Section和row值UITests";
+			productName = "同时获取UITableViewCell中的Section和row值UITests";
+			productReference = 546EB6601FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		546EB6351FF12D6400D6623E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LiuYuan;
+				TargetAttributes = {
+					546EB63C1FF12D6400D6623E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					546EB6541FF12D6500D6623E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 546EB63C1FF12D6400D6623E;
+					};
+					546EB65F1FF12D6500D6623E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 546EB63C1FF12D6400D6623E;
+					};
+				};
+			};
+			buildConfigurationList = 546EB6381FF12D6400D6623E /* Build configuration list for PBXProject "同时获取UITableViewCell中的Section和row值" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 546EB6341FF12D6400D6623E;
+			productRefGroup = 546EB63E1FF12D6400D6623E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				546EB63C1FF12D6400D6623E /* 同时获取UITableViewCell中的Section和row值 */,
+				546EB6541FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值Tests */,
+				546EB65F1FF12D6500D6623E /* 同时获取UITableViewCell中的Section和row值UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		546EB63B1FF12D6400D6623E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546EB64D1FF12D6400D6623E /* LaunchScreen.storyboard in Resources */,
+				546EB64A1FF12D6400D6623E /* Assets.xcassets in Resources */,
+				546EB6481FF12D6400D6623E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546EB6531FF12D6500D6623E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546EB65E1FF12D6500D6623E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		546EB6391FF12D6400D6623E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546EB6451FF12D6400D6623E /* ViewController.m in Sources */,
+				546EB6501FF12D6400D6623E /* main.m in Sources */,
+				546EB6421FF12D6400D6623E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546EB6511FF12D6500D6623E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546EB65A1FF12D6500D6623E /* ____UITableViewCell__Section_row_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546EB65C1FF12D6500D6623E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546EB6651FF12D6500D6623E /* ____UITableViewCell__Section_row_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		546EB6571FF12D6500D6623E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 546EB63C1FF12D6400D6623E /* 同时获取UITableViewCell中的Section和row值 */;
+			targetProxy = 546EB6561FF12D6500D6623E /* PBXContainerItemProxy */;
+		};
+		546EB6621FF12D6500D6623E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 546EB63C1FF12D6400D6623E /* 同时获取UITableViewCell中的Section和row值 */;
+			targetProxy = 546EB6611FF12D6500D6623E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		546EB6461FF12D6400D6623E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546EB6471FF12D6400D6623E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		546EB64B1FF12D6400D6623E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546EB64C1FF12D6400D6623E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		546EB6671FF12D6500D6623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		546EB6681FF12D6500D6623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		546EB66A1FF12D6500D6623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "同时获取UITableViewCell中的Section和row值/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.----UITableViewCell--Section-row-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		546EB66B1FF12D6500D6623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "同时获取UITableViewCell中的Section和row值/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.----UITableViewCell--Section-row-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		546EB66D1FF12D6500D6623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "同时获取UITableViewCell中的Section和row值Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.----UITableViewCell--Section-row-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/同时获取UITableViewCell中的Section和row值.app/同时获取UITableViewCell中的Section和row值";
+			};
+			name = Debug;
+		};
+		546EB66E1FF12D6500D6623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "同时获取UITableViewCell中的Section和row值Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.----UITableViewCell--Section-row-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/同时获取UITableViewCell中的Section和row值.app/同时获取UITableViewCell中的Section和row值";
+			};
+			name = Release;
+		};
+		546EB6701FF12D6500D6623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "同时获取UITableViewCell中的Section和row值UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.----UITableViewCell--Section-row-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "同时获取UITableViewCell中的Section和row值";
+			};
+			name = Debug;
+		};
+		546EB6711FF12D6500D6623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "同时获取UITableViewCell中的Section和row值UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.----UITableViewCell--Section-row-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "同时获取UITableViewCell中的Section和row值";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		546EB6381FF12D6400D6623E /* Build configuration list for PBXProject "同时获取UITableViewCell中的Section和row值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546EB6671FF12D6500D6623E /* Debug */,
+				546EB6681FF12D6500D6623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546EB6691FF12D6500D6623E /* Build configuration list for PBXNativeTarget "同时获取UITableViewCell中的Section和row值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546EB66A1FF12D6500D6623E /* Debug */,
+				546EB66B1FF12D6500D6623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546EB66C1FF12D6500D6623E /* Build configuration list for PBXNativeTarget "同时获取UITableViewCell中的Section和row值Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546EB66D1FF12D6500D6623E /* Debug */,
+				546EB66E1FF12D6500D6623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546EB66F1FF12D6500D6623E /* Build configuration list for PBXNativeTarget "同时获取UITableViewCell中的Section和row值UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546EB6701FF12D6500D6623E /* Debug */,
+				546EB6711FF12D6500D6623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 546EB6351FF12D6400D6623E /* Project object */;
+}
