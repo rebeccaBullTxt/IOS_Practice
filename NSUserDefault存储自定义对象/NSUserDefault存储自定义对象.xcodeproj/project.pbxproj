@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5482181E202166F20097D8C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482181D202166F20097D8C5 /* AppDelegate.m */; };
+		54821821202166F20097D8C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54821820202166F20097D8C5 /* ViewController.m */; };
+		54821824202166F20097D8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54821822202166F20097D8C5 /* Main.storyboard */; };
+		54821826202166F20097D8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54821825202166F20097D8C5 /* Assets.xcassets */; };
+		54821829202166F20097D8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54821827202166F20097D8C5 /* LaunchScreen.storyboard */; };
+		5482182C202166F20097D8C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482182B202166F20097D8C5 /* main.m */; };
+		54821836202166F20097D8C5 /* NSUserDefault_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54821835202166F20097D8C5 /* NSUserDefault_______Tests.m */; };
+		54821841202166F20097D8C5 /* NSUserDefault_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54821840202166F20097D8C5 /* NSUserDefault_______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54821832202166F20097D8C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54821811202166F20097D8C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54821818202166F20097D8C5;
+			remoteInfo = "NSUserDefault存储自定义对象";
+		};
+		5482183D202166F20097D8C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54821811202166F20097D8C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54821818202166F20097D8C5;
+			remoteInfo = "NSUserDefault存储自定义对象";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54821819202166F20097D8C5 /* NSUserDefault存储自定义对象.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSUserDefault存储自定义对象.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5482181C202166F20097D8C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5482181D202166F20097D8C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5482181F202166F20097D8C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54821820202166F20097D8C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54821823202166F20097D8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54821825202166F20097D8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54821828202166F20097D8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5482182A202166F20097D8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5482182B202166F20097D8C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54821831202166F20097D8C5 /* NSUserDefault存储自定义对象Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSUserDefault存储自定义对象Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54821835202166F20097D8C5 /* NSUserDefault_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefault_______Tests.m"; sourceTree = "<group>"; };
+		54821837202166F20097D8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5482183C202166F20097D8C5 /* NSUserDefault存储自定义对象UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSUserDefault存储自定义对象UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54821840202166F20097D8C5 /* NSUserDefault_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefault_______UITests.m"; sourceTree = "<group>"; };
+		54821842202166F20097D8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54821816202166F20097D8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5482182E202166F20097D8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54821839202166F20097D8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54821810202166F20097D8C5 = {
+			isa = PBXGroup;
+			children = (
+				5482181B202166F20097D8C5 /* NSUserDefault存储自定义对象 */,
+				54821834202166F20097D8C5 /* NSUserDefault存储自定义对象Tests */,
+				5482183F202166F20097D8C5 /* NSUserDefault存储自定义对象UITests */,
+				5482181A202166F20097D8C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5482181A202166F20097D8C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54821819202166F20097D8C5 /* NSUserDefault存储自定义对象.app */,
+				54821831202166F20097D8C5 /* NSUserDefault存储自定义对象Tests.xctest */,
+				5482183C202166F20097D8C5 /* NSUserDefault存储自定义对象UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5482181B202166F20097D8C5 /* NSUserDefault存储自定义对象 */ = {
+			isa = PBXGroup;
+			children = (
+				5482181C202166F20097D8C5 /* AppDelegate.h */,
+				5482181D202166F20097D8C5 /* AppDelegate.m */,
+				5482181F202166F20097D8C5 /* ViewController.h */,
+				54821820202166F20097D8C5 /* ViewController.m */,
+				54821822202166F20097D8C5 /* Main.storyboard */,
+				54821825202166F20097D8C5 /* Assets.xcassets */,
+				54821827202166F20097D8C5 /* LaunchScreen.storyboard */,
+				5482182A202166F20097D8C5 /* Info.plist */,
+				5482182B202166F20097D8C5 /* main.m */,
+			);
+			path = "NSUserDefault存储自定义对象";
+			sourceTree = "<group>";
+		};
+		54821834202166F20097D8C5 /* NSUserDefault存储自定义对象Tests */ = {
+			isa = PBXGroup;
+			children = (
+				54821835202166F20097D8C5 /* NSUserDefault_______Tests.m */,
+				54821837202166F20097D8C5 /* Info.plist */,
+			);
+			path = "NSUserDefault存储自定义对象Tests";
+			sourceTree = "<group>";
+		};
+		5482183F202166F20097D8C5 /* NSUserDefault存储自定义对象UITests */ = {
+			isa = PBXGroup;
+			children = (
+				54821840202166F20097D8C5 /* NSUserDefault_______UITests.m */,
+				54821842202166F20097D8C5 /* Info.plist */,
+			);
+			path = "NSUserDefault存储自定义对象UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54821818202166F20097D8C5 /* NSUserDefault存储自定义对象 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54821845202166F20097D8C5 /* Build configuration list for PBXNativeTarget "NSUserDefault存储自定义对象" */;
+			buildPhases = (
+				54821815202166F20097D8C5 /* Sources */,
+				54821816202166F20097D8C5 /* Frameworks */,
+				54821817202166F20097D8C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSUserDefault存储自定义对象";
+			productName = "NSUserDefault存储自定义对象";
+			productReference = 54821819202166F20097D8C5 /* NSUserDefault存储自定义对象.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54821830202166F20097D8C5 /* NSUserDefault存储自定义对象Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54821848202166F20097D8C5 /* Build configuration list for PBXNativeTarget "NSUserDefault存储自定义对象Tests" */;
+			buildPhases = (
+				5482182D202166F20097D8C5 /* Sources */,
+				5482182E202166F20097D8C5 /* Frameworks */,
+				5482182F202166F20097D8C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54821833202166F20097D8C5 /* PBXTargetDependency */,
+			);
+			name = "NSUserDefault存储自定义对象Tests";
+			productName = "NSUserDefault存储自定义对象Tests";
+			productReference = 54821831202166F20097D8C5 /* NSUserDefault存储自定义对象Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5482183B202166F20097D8C5 /* NSUserDefault存储自定义对象UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5482184B202166F20097D8C5 /* Build configuration list for PBXNativeTarget "NSUserDefault存储自定义对象UITests" */;
+			buildPhases = (
+				54821838202166F20097D8C5 /* Sources */,
+				54821839202166F20097D8C5 /* Frameworks */,
+				5482183A202166F20097D8C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5482183E202166F20097D8C5 /* PBXTargetDependency */,
+			);
+			name = "NSUserDefault存储自定义对象UITests";
+			productName = "NSUserDefault存储自定义对象UITests";
+			productReference = 5482183C202166F20097D8C5 /* NSUserDefault存储自定义对象UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54821811202166F20097D8C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LiuYuan;
+				TargetAttributes = {
+					54821818202166F20097D8C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					54821830202166F20097D8C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54821818202166F20097D8C5;
+					};
+					5482183B202166F20097D8C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54821818202166F20097D8C5;
+					};
+				};
+			};
+			buildConfigurationList = 54821814202166F20097D8C5 /* Build configuration list for PBXProject "NSUserDefault存储自定义对象" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54821810202166F20097D8C5;
+			productRefGroup = 5482181A202166F20097D8C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54821818202166F20097D8C5 /* NSUserDefault存储自定义对象 */,
+				54821830202166F20097D8C5 /* NSUserDefault存储自定义对象Tests */,
+				5482183B202166F20097D8C5 /* NSUserDefault存储自定义对象UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54821817202166F20097D8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54821829202166F20097D8C5 /* LaunchScreen.storyboard in Resources */,
+				54821826202166F20097D8C5 /* Assets.xcassets in Resources */,
+				54821824202166F20097D8C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5482182F202166F20097D8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5482183A202166F20097D8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54821815202166F20097D8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54821821202166F20097D8C5 /* ViewController.m in Sources */,
+				5482182C202166F20097D8C5 /* main.m in Sources */,
+				5482181E202166F20097D8C5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5482182D202166F20097D8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54821836202166F20097D8C5 /* NSUserDefault_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54821838202166F20097D8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54821841202166F20097D8C5 /* NSUserDefault_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54821833202166F20097D8C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54821818202166F20097D8C5 /* NSUserDefault存储自定义对象 */;
+			targetProxy = 54821832202166F20097D8C5 /* PBXContainerItemProxy */;
+		};
+		5482183E202166F20097D8C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54821818202166F20097D8C5 /* NSUserDefault存储自定义对象 */;
+			targetProxy = 5482183D202166F20097D8C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54821822202166F20097D8C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54821823202166F20097D8C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54821827202166F20097D8C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54821828202166F20097D8C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54821843202166F20097D8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54821844202166F20097D8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54821846202166F20097D8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SYEQDQSW5;
+				INFOPLIST_FILE = "NSUserDefault存储自定义对象/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.NSUserDefault-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54821847202166F20097D8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SYEQDQSW5;
+				INFOPLIST_FILE = "NSUserDefault存储自定义对象/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.NSUserDefault-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54821849202166F20097D8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSUserDefault存储自定义对象Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.NSUserDefault-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSUserDefault存储自定义对象.app/NSUserDefault存储自定义对象";
+			};
+			name = Debug;
+		};
+		5482184A202166F20097D8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSUserDefault存储自定义对象Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.NSUserDefault-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSUserDefault存储自定义对象.app/NSUserDefault存储自定义对象";
+			};
+			name = Release;
+		};
+		5482184C202166F20097D8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSUserDefault存储自定义对象UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.NSUserDefault-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NSUserDefault存储自定义对象";
+			};
+			name = Debug;
+		};
+		5482184D202166F20097D8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSUserDefault存储自定义对象UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiuYuan.NSUserDefault-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NSUserDefault存储自定义对象";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54821814202166F20097D8C5 /* Build configuration list for PBXProject "NSUserDefault存储自定义对象" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54821843202166F20097D8C5 /* Debug */,
+				54821844202166F20097D8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54821845202166F20097D8C5 /* Build configuration list for PBXNativeTarget "NSUserDefault存储自定义对象" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54821846202166F20097D8C5 /* Debug */,
+				54821847202166F20097D8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54821848202166F20097D8C5 /* Build configuration list for PBXNativeTarget "NSUserDefault存储自定义对象Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54821849202166F20097D8C5 /* Debug */,
+				5482184A202166F20097D8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5482184B202166F20097D8C5 /* Build configuration list for PBXNativeTarget "NSUserDefault存储自定义对象UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5482184C202166F20097D8C5 /* Debug */,
+				5482184D202166F20097D8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54821811202166F20097D8C5 /* Project object */;
+}
